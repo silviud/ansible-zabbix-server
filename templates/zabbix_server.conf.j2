@@ -1,0 +1,10 @@
+LogFile={{ ansible_zabbix_server_log_file }}
+LogFileSize={{ ansible_zabbix_server_log_file_size }}
+PidFile=/var/run/zabbix/zabbix_server.pid
+DBName={{ ansible_zabbix_server_db_name }}
+DBUser={{ ansible_zabbix_server_db_user }}
+DBPassword={{ ansible_zabbix_server_db_password }}
+DBSocket={{ ansible_zabbix_server_db_socket }}
+SNMPTrapperFile=/var/log/snmptt/snmptt.log
+AlertScriptsPath=/usr/lib/zabbix/alertscripts
+ExternalScripts=/usr/lib/zabbix/externalscripts

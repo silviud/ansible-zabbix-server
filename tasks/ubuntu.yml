@@ -2,7 +2,7 @@
 # ubuntu specific
 #
 - name: update apt
-  raw: "apt-get update"
+  command: "apt-get update"
 
 - name: fetch zabbix repo
   get_url: url=http://repo.zabbix.com/zabbix/2.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_2.0-1precise_all.deb dest=/tmp/zabbix-release_2.0-1precise_all.deb mode=600

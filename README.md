@@ -1,7 +1,12 @@
 Role Name
 =========
 
-Install and configure Zabbix server 2.0
+Install and configure Zabbix server 2.2
+
+The parts that are not automated:
+
+- installation of the db schema, see [https://www.zabbix.com/documentation/2.2/manual/installation/install_from_packages] for
+more information. You will need to created such as ` mysql zabbix < schema.sql ; mysql zabbix < images.sql; mysql zabbix < data.sql`
 
 Requirements
 ------------
@@ -35,4 +40,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+silviudicu@gmail.com
